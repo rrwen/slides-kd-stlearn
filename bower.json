@@ -1,0 +1,36 @@
+{
+  "name": "slides-cp8305-stlearn",
+  "description": "Presentation for Ryerson University course CP8305 instructed by Dr. Cherie Ding during Winter 2017",
+  "main": "index.js",
+  "authors": [
+    "Richard Wen"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "slides",
+    "self-taught",
+    "learning",
+    "transfer",
+    "learning",
+    "ryerson",
+    "machine",
+    "learning",
+    "deep",
+    "learning",
+    "sparse",
+    "coding",
+    "presentation"
+  ],
+  "homepage": "https://github.com/rrwen/slides-cp8305-stlearn",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "reveal.js": "^3.4.1"
+  }
+}

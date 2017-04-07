@@ -1,0 +1,16 @@
+.style h1 {
+  font-size: 42pt;
+  padding: 0.5%;
+}
+
+.style h2 {
+  font-size: 32pt;
+}
+
+.style small {
+  font-size: 24pt;
+}
+
+.style p {
+  font-size: 32pt;
+}
