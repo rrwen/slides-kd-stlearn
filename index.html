@@ -27,7 +27,7 @@
           </p>
           <p>
             <small><i>
-              <br>Presented for Course CP8305
+              <br>Presented as an Article Summary for Course CP8305
               <br>Instructed by Dr. Cherie Ding
             </i></small>
           </p>
@@ -39,8 +39,7 @@
             <li>Introduction</li>
             <li>Methods</li>
             <li>Results</li>
-            <li>Discussion</li>
-            <li>Conclusion</li>
+            <li>Discussion and Conclusion</li>
           </ol></p>
         </section>
 
@@ -81,10 +80,12 @@
 
 				<section>
 					<h2>Two Stages</h2>
-					<ol>
-						<li>Learn representation with unlabeled data</li>
-						<li>Apply to labeled data for classification</li>
-					</ol>
+					<p>
+						<ol>
+							<li>Learn representation with unlabeled data</li>
+							<li>Apply to labeled data for classification</li>
+						</ol>
+					</p>
 				</section>
 
 				<section>
@@ -98,7 +99,7 @@
 						</ul>
 					</p>
 					<!-- \left\{ ( x_l^{(1)}, y^{(1)} ) \dots\ (x_l^{(m)}, y^{(m)}) \right\} \in  \!R^n -->
-					<img class="plain" src="img/eq_train_label.svg" width="500px">
+					<img class="plain" src="img/eq_train_label.svg" width="80%">
 					<small class="reference">Raina et al. (2007)</small>
         </section>
 
@@ -112,7 +113,7 @@
 						</ul>
 					</p>
 					<!-- \left\{  x_u^{(1)} \dots\ x_u^{(k)} \right\} \in  \!R^n -->
-					<img class="plain" src="img/eq_train_unlabel.svg" width="500px">
+					<img class="plain" src="img/eq_train_unlabel.svg" width="50%">
 					<small class="reference">Raina et al. (2007)</small>
         </section>
 
@@ -126,7 +127,7 @@
 						</ol>
 					</p>
 					<!-- minimize_{b,a} \sum \left \| x_u^{(i)} - \sum_j a_j^{(i)}b_j \right \|_2^2 + \beta \left \| a^{(i)} \right \|_1 \\ \textrm{such that} \left \| b_j \right \|_2 \leq 1, \forall j \in 1, \dots s  -->
-					<img class="plain" src="img/eq_bases.svg" width="500px">
+					<img class="plain" src="img/eq_bases.svg" width="80%">
 					<small class="reference">Raina et al. (2007)</small>
 				</section>
 
@@ -136,22 +137,76 @@
 						Using <i>bj</i>, compute sparse features from labeled data as input to supervised algorithms
 					</p>
 					<!-- \hat a (x_l^{(i)})) = argmin_a \left \| x_l^{(i)} - \sum_j a_j^{(i)}b_j \right \|_2^2 + \beta \left \| a^{(i)} \right \|_1 -->
-					<img class="plain" src="img/eq_features.svg" width="500px">
+					<img class="plain" src="img/eq_features.svg" width="80%">
+					<small class="reference">Raina et al. (2007)</small>
+				</section>
+
+				<section>
+					<h2>Sparse Features Example</h2>
+					<img class="plain" src="img/ex_features.png" width="80%">
 					<small class="reference">Raina et al. (2007)</small>
 				</section>
 
 				<section><h1>Results</h1></section>
 
 				<section>
-					<h2>Experiments</h2>
+					<h2>Classification Experiments</h2>
+					<p>
+						<ul>
+							<li>Principal Component Analysis (PCA) vs Raw vs Sparse Coding (SC) Features</li>
+							<li>Support Vector Machine (SVM)</li>
+							<li>Gaussian Discriminant Analysis (GDA)</li>
+						</ul>
+					</p>
+				</section>
+
+				<section>
+					<h2>Handwritten Digits and English Characters</h2>
 					<ul>
-						<li></li>
+						<li>Improvements when SC used with Raw for characters</li>
+						<li>SC did not perform as well alone for characters</li>
+						<li>SC generally performed better for digits</li>
+						<li>Improvements ranged from ~1-7%</li>
 					</ul>
 				</section>
 
-				<section><h1>Discussion</h1></section>
+				<section>
+					<h2>Reuters Webpages and Articles</h2>
+					<ul>
+						<li>SC generally performed well for webpages and articles</li>
+						<li>Improvements ranged from ~8-21%</li>
+					</ul>
+				</section>
 
-				<section><h1>Conclusion</h1></section>
+				<section>
+					<h2>Kernels (Similarity Functions)</h2>
+					<ul>
+						<li>Compared against linear, polynomials, Radial Basis Function (RBF)</li>
+						<li>Outperforms standard kernel choices above</li>
+						<li>Improvements ranged from ~6-13%</li>
+					</ul>
+				</section>
+
+				<section><h1>Discussion and Conclusion</h1></section>
+
+				<section>
+					<h2>Discussion</h2>
+					<ul>
+						<li>Can be applied to different domains</li>
+						<li>Can have more basis vectors <i>bj</i> than n-dimensions</li>
+						<li>Unlabeled data must still have some structure</li>
+						<li>Other algorithms can be modified for self-taught learning</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Conclusion</h2>
+					<ul>
+						<li>Self-taught learning as a machine learning framework</li>
+						<li>Use of inexpensive unlabeled data</li>
+						<li>Find higher level representations of patterns</li>
+					</ul>
+				</section>
 
 				<section>
           <h2>References</h2>
