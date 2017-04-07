@@ -47,30 +47,72 @@
 				<section><h1>Introduction</h1></section>
 
 				<section>
+					<h2>Learning</h2>
+          <img class="plain" src="img/learn_methods.png" width="80%">
+        </section>
+
+				<section>
           <h2>What We See</h2>
-          <img class="plain" src="img/dog_cat.jpg">
+          <img class="plain" src="img/dog_cat.jpg" width="70%">
         </section>
 
 				<section>
           <h2>What The Computer Sees</h2>
-          <img class="plain" src="img/computer_sees.png">
+          <img class="plain" src="img/computer_sees.png" width="70%">
+        </section>
+
+				<section>
+          <h2>Higher Level Features</h2>
+          <img class="plain" src="img/dog_cat_edges.png" width="70%">
+        </section>
+
+				<section>
+          <h2>Why?</h2>
+					<p>
+						<ul>
+							<li>Labeled data is expensive</li>
+							<li>Abundance of unlabeled data</li>
+							<li>Less restrictive data requirements</li>
+						</ul>
+					</p>
         </section>
 
 				<section><h1>Methods</h1></section>
 
-
+				<section>
+					<h2>Two Stages</h2>
+					<ol>
+						<li>Learn representation with unlabeled data</li>
+						<li>Apply to labeled data for classification</li>
+					</ol>
+				</section>
 
 				<section>
-          <h2>Training Data</h2>
+          <h2>Labeled Training Data</h2>
 					<p>
 						A set of <i>m</i> training examples with:
 						<ul>
 							<li><i>x</i> as <i>n</i>-dimension feature vectors</li>
-							<li><i>y</i> as corresponding labels</li>
+							<li><i>y</i> as corresponding labels <i>{1 .. C}</i></li>
+							<li><i>l</i> indicating a labeled example</li>
 						</ul>
 					</p>
-					<!-- \left\{ ( x^{(1)}, y^{(1)} ) \dots\ (x^{(m)}, y^{(m)}) \right\} \in  \!R^n -->
-					<img class="plain" src="img/eq_train.svg" width="500px">
+					<!-- \left\{ ( x_l^{(1)}, y^{(1)} ) \dots\ (x_l^{(m)}, y^{(m)}) \right\} \in  \!R^n -->
+					<img class="plain" src="img/eq_train_label.svg" width="500px">
+					<small class="reference">Raina et al. (2007)</small>
+        </section>
+
+				<section>
+          <h2>Unlabeled Training Data</h2>
+					<p>
+						A set of <i>k</i> training examples with:
+						<ul>
+							<li><i>x</i> as <i>n</i>-dimension feature vectors</li>
+							<li><i>u</i> indicating an unlabeled example</li>
+						</ul>
+					</p>
+					<!-- \left\{  x_u^{(1)} \dots\ x_u^{(k)} \right\} \in  \!R^n -->
+					<img class="plain" src="img/eq_train_unlabel.svg" width="500px">
 					<small class="reference">Raina et al. (2007)</small>
         </section>
 

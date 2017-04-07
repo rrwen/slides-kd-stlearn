@@ -18,7 +18,7 @@
 
 .reference {
   color: gray;
-	top: 90%;
-	left: 10%;
-	position: fixed;
+	top: 100%;
+	left: 5%;
+	position: absolute;
 }
