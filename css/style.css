@@ -16,6 +16,11 @@
   padding: 0!important;
 }
 
+.subsection {
+  background-color: black;
+}
+
+
 .reference {
   color: gray;
 	top: 100%;
