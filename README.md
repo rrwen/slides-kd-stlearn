@@ -5,4 +5,4 @@ April 7, 2017
 Presentation for Course CP8305  
 Instructed by Dr. Cherie Ding  
 
-- [Presentation Slides](https://rrwen.github.io/msa-thesis)
+- [Presentation Slides](https://rrwen.github.io/slides-cp8305-stlearn)
