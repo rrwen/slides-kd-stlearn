@@ -16,9 +16,9 @@
 
     <!-- Reveal Slides -->
 		<div class="reveal">
-			<div class="slides">
+			<div class="slides style">
 
-        <section class="style">
+        <section>
           <h1>Self-taught Learning: <br>Transfer Learning from Unlabeled Data</h1>
           <p>
             <br>Richard Wen
@@ -33,26 +33,58 @@
           </p>
         </section>
 
-        <section class="style">
+        <section>
           <h2>Outline</h2>
           <p><ol>
             <li>Introduction</li>
             <li>Methods</li>
-            <li>Experiments</li>
+            <li>Results</li>
             <li>Discussion</li>
             <li>Conclusion</li>
           </ol></p>
         </section>
 
-        <section class="style">
-          <h2>Introduction</h2>
-          <p><ol>
-            <li>Introduction</li>
-            <li>Methods</li>
-            <li>Experiments</li>
-            <li>Discussion</li>
-            <li>Conclusion</li>
-          </ol></p>
+				<section><h1>Introduction</h1></section>
+
+				<section>
+          <h2>What We See</h2>
+          <img class="plain" src="img/dog_cat.jpg">
+        </section>
+
+				<section>
+          <h2>What The Computer Sees</h2>
+          <img class="plain" src="img/computer_sees.png">
+        </section>
+
+				<section><h1>Methods</h1></section>
+
+
+
+				<section>
+          <h2>Training Data</h2>
+					<p>
+						A set of <i>m</i> training examples with:
+						<ul>
+							<li><i>x</i> as <i>n</i>-dimension feature vectors</li>
+							<li><i>y</i> as corresponding labels</li>
+						</ul>
+					</p>
+					<!-- \left\{ ( x^{(1)}, y^{(1)} ) \dots\ (x^{(m)}, y^{(m)}) \right\} \in  \!R^n -->
+					<img class="plain" src="img/eq_train.svg" width="500px">
+					<small class="reference">Raina et al. (2007)</small>
+        </section>
+
+				<section><h1>Results</h1></section>
+
+				<section><h1>Discussion</h1></section>
+
+				<section><h1>Conclusion</h1></section>
+
+				<section>
+          <h2>References</h2>
+          <small><ul>
+            <li>Raina, R., Battle, A., Lee, H., Packer, B., & Ng, A. Y. (2007). Self-taught learning. Proceedings of the 24th international conference on Machine learning - ICML '07. doi:10.1145/1273496.1273592</li>
+          </ul></small>
         </section>
 
 			</div>
@@ -64,7 +96,7 @@
     </div>
 
     <!-- Reveal JavaScript -->
-		<script src="bower_components/reveal.js/js/reveal.js"></script>
+		<script type="text/javascript" src="bower_components/reveal.js/js/reveal.js"></script>
 		<script>
 		  Reveal.initialize({});
       Reveal.configure({slideNumber: true});

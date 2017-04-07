@@ -13,4 +13,12 @@
 
 .style p {
   font-size: 32pt;
+  padding: 0!important;
+}
+
+.reference {
+  color: gray;
+	top: 90%;
+	left: 10%;
+	position: fixed;
 }
