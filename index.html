@@ -116,7 +116,38 @@
 					<small class="reference">Raina et al. (2007)</small>
         </section>
 
+				<section>
+					<h2>Learning Bases (Basic Elements)</h2>
+					<p>
+						Optimize <i>aj</i> weights and <i>bj</i> bases to:
+						<ol>
+							<li>Reconstruct <i>xu</i> as weighted linear combo of bases</li>
+							<li>Encourage <i>aj</i> to be sparse (mostly zero)</li>
+						</ol>
+					</p>
+					<!-- minimize_{b,a} \sum \left \| x_u^{(i)} - \sum_j a_j^{(i)}b_j \right \|_2^2 + \beta \left \| a^{(i)} \right \|_1 \\ \textrm{such that} \left \| b_j \right \|_2 \leq 1, \forall j \in 1, \dots s  -->
+					<img class="plain" src="img/eq_bases.svg" width="500px">
+					<small class="reference">Raina et al. (2007)</small>
+				</section>
+
+				<section>
+					<h2>Learning Features</h2>
+					<p>
+						Using <i>bj</i>, compute sparse features from labeled data as input to supervised algorithms
+					</p>
+					<!-- \hat a (x_l^{(i)})) = argmin_a \left \| x_l^{(i)} - \sum_j a_j^{(i)}b_j \right \|_2^2 + \beta \left \| a^{(i)} \right \|_1 -->
+					<img class="plain" src="img/eq_features.svg" width="500px">
+					<small class="reference">Raina et al. (2007)</small>
+				</section>
+
 				<section><h1>Results</h1></section>
+
+				<section>
+					<h2>Experiments</h2>
+					<ul>
+						<li></li>
+					</ul>
+				</section>
 
 				<section><h1>Discussion</h1></section>
 

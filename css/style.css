@@ -22,3 +22,10 @@
 	left: 5%;
 	position: absolute;
 }
+
+.reveal .slide-number {
+	right: 8px;
+	top: 8px;
+	bottom: auto;
+	font-size: 24pt;
+}
