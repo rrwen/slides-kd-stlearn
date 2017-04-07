@@ -2,5 +2,8 @@
 
 Richard Wen  
 rwen@ryerson.ca  
+April 7, 2017  
+Presentation for Course CP8305  
+Instructed by Dr. Cherie Ding  
 
-Presentation for Ryerson University course CP8305 instructed by Dr. Cherie Ding during Winter 2017  
+- [Presentation Slides](https://rrwen.github.io/msa-thesis)
