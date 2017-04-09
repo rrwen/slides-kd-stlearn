@@ -16,21 +16,16 @@
   padding: 0!important;
 }
 
-.subsection {
-  background-color: black;
-}
-
-
 .reference {
   color: gray;
-	top: 100%;
-	left: 5%;
-	position: absolute;
+  top: 100%;
+  left: 5%;
+  position: absolute;
 }
 
 .reveal .slide-number {
-	right: 8px;
-	top: 8px;
-	bottom: auto;
-	font-size: 24pt;
+  right: 8px;
+  top: 8px;
+  bottom: auto;
+  font-size: 24pt;
 }
