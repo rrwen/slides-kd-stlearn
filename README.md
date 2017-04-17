@@ -3,7 +3,7 @@
 Richard Wen  
 rwen@ryerson.ca      
 April 7, 2017  
-Presentation for Course CP8305  
+Presentation for Knowledge Discovery Course  
 Instructed by Dr. Cherie Ding  
 
 - [Slides](https://rrwen.github.io/slides-kd-stlearn)
