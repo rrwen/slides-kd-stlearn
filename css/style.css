@@ -1,3 +1,5 @@
+
+/** Style **/
 .style h1 {
   font-size: 42pt;
   padding: 0.5%;
@@ -16,12 +18,36 @@
   padding: 0!important;
 }
 
+/** Logo **/
+
+#logo-div {
+  top: 89%;
+  left: 2%;
+  position: fixed;
+}
+
+.logo {
+  height: 8vh;
+}
+
+/** Reference **/
+
 .reference {
   color: gray;
   top: 100%;
   left: 5%;
   position: absolute;
 }
+
+/** Formats **/
+
+.format a:link, a:visited, a:active {
+  color: black;
+  font-size: 18pt;
+  outline: 0;
+}
+
+/** Reveal **/
 
 .reveal .slide-number {
   right: 8px;

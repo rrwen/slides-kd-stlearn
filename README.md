@@ -7,7 +7,7 @@ Presentation for Knowledge Discovery Course
 Instructed by Dr. Cherie Ding  
 
 - [Slides](https://rrwen.github.io/slides-kd-stlearn)
-- [PDF](https://github.com/rrwen/slides-kd-stlearn/blob/master/pdf/rwen_cp8305_slides_stlearn.pdf)
+- [PDF](https://github.com/rrwen/slides-kd-stlearn/blob/master/pdf/index.pdf)
 
 ## References
 
