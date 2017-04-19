@@ -15,7 +15,7 @@ Instructed by Dr. Cherie Ding
 
 ## Developer Notes
 
-1. Install [rvslides](https://www.npmjs.com/package/rvslides) and [bower](https://www.npmjs.com/package/bower) 
+1. Install [rvslides](https://www.npmjs.com/package/rvslides) and [bower](https://www.npmjs.com/package/bower) with [Node.js](https://nodejs.org/en/)
 2. Update JavaScript packages and render a PDF:
 
 ```
